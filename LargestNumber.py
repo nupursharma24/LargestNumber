@@ -9,7 +9,7 @@ def user_input():
 a,b,c = user_input()
 if a >= b and a >= c:
   st.write(a)
-elif a >= b and a <= c:
-  st.write(c)
-else:
+elif b >= a and b >= c:
   st.write(b)
+else:
+  st.write(c)
